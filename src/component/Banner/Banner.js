@@ -2,6 +2,7 @@ import React from 'react';
 import Arjun from "../../image/22.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareGithub,faLinkedin,faSquareFacebook } from '@fortawesome/free-brands-svg-icons'
+import Resume from "../../image/Arjun React Dev.pdf"
 
 
 const Banner = () => {
@@ -13,12 +14,20 @@ const Banner = () => {
             <h1 className="text-6xl font-bold">Hi, I'm Arjun Das!</h1>
             <h1 className="text-2xl mt-2 font-bold">Full Stack Web Developer</h1>
             <p className="py-6">I am a full stack web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing. I have a strong understanding of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appearing.</p>
+            <a href={Resume}>
             <button className="btn btn-primary">DOWNLOAD RESUME</button>
-            <h1 className='text-3xl mt-2 font-bold mt-3'>Find On Me</h1>
+            </a>
+            <h1 className='text-3xl  font-bold mt-3'>Find On Me</h1>
             <div className='flex mt-3'>
+            <a href="https://www.facebook.com/profile.php?id=100027943727580" target='_blank' rel="">
             <FontAwesomeIcon className='w-10 h-8' icon={faSquareFacebook} />
+            </a>
+            <a href="https://github.com/arjun1571" target='_blank'>
             <FontAwesomeIcon className='w-10 h-8' icon={faSquareGithub} />
+            </a>
+            <a href="https://www.linkedin.com/in/arjundasbd/" target='_blank'>
             <FontAwesomeIcon className='w-10 h-8' icon={faLinkedin} />
+            </a>
 
             </div>
           </div>

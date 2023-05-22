@@ -1,4 +1,5 @@
 import React from 'react';
+// import Resume from "../../image/Arjun React Dev.pdf"
 
 const NavBar = () => {
     return (
@@ -28,7 +29,7 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">DOWNLOAD RESUME</a>
+    <a href="https://drive.google.com/file/d/19ApryRHLmbhsGOuKyMDSACNa8KQkClN5/view?usp=sharing" target='_blank' className="btn">OPEN RESUME</a>
   </div>
 </div>
     );
