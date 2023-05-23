@@ -13,7 +13,7 @@ const Banner = () => {
           <div className='lg:w-1/2 mt-8'>
             <h1 className="text-6xl font-bold">Hi, I'm Arjun Das!</h1>
             <h1 className="text-2xl mt-2 font-bold">Full Stack Web Developer</h1>
-            <p className="py-6">I am a full stack web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing. I have a strong understanding of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appearing.</p>
+            <p className="py-6 pr-10">I am a full stack web developer with an amazing ability to develop websites <br /> that are both functional and aesthetically pleasing. I have a strong <br /> understanding of web standards and best practices, and I am passionate br about  creating websites that users will find easy to use and visually appearing.</p>
             <a href={Resume}>
             <button className="btn btn-primary">DOWNLOAD RESUME</button>
             </a>
