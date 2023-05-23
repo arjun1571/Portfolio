@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div className="hero min-h-[550px] bg-base-300 mt-10 rounded-xl">
         <div className="hero-content flex-col lg:flex-row-reverse ">
-          <img src={Arjun}alt='' className="max-w-sm rounded-lg shadow-2xl lg:w-1/2 lg:ms-10" />
+          <img src={Arjun}alt='' className="lg:max-w-sm rounded-lg shadow-2xl lg:w-1/2 lg:ms-10 object-scale-down" />
           <div className='lg:w-1/2 mt-8'>
             <h1 className="text-6xl font-bold">Hi, I'm Arjun Das!</h1>
             <h1 className="text-2xl mt-2 font-bold">Full Stack Web Developer</h1>

@@ -2,14 +2,28 @@
     
     {
       "id": 1,
-      "name": "Glenna Reichert",
-      "username": "Delphine",
-      "email": "Chaim_McDermott@dana.io"
+      "name": "Tech Zone BD",
+      "image":"https://i.ibb.co/dcHryms/s1.png"
     },
     {
-      "id": 2,
-      "name": "Clementina DuBuque",
-      "username": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz"
-    }
+        "id": 2,
+        "name": "News Hub-24",
+        "image":"https://i.ibb.co/3SLv2PJ/s2.png"
+    },
+    {
+        "id": 3,
+        "name": "PSG-OFFICIAL",
+        "image":"https://i.ibb.co/Byn6TX3/s3.png"
+    },
+      {
+        "id": 4,
+        "name": "Doctor Portal",
+        "image":"https://i.ibb.co/7zTdpCT/s4.png"
+      },
+      {
+        "id": 5,
+        "name": "Car Service BD",
+        "image":"https://i.ibb.co/rwshQj1/s5.png"
+      }
+    
   ]

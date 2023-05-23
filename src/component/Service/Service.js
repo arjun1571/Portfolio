@@ -20,8 +20,8 @@ const Service = () => {
         <div className="hero min-h-[550px] bg-base-300 mt-20 rounded-xl mb-20">
         <div className="hero-content flex-col lg:flex-row-reverse ">
         <div className='lg:w-1/2 mt-8'>
-            <h1 className="text-5xl font-bold">Fully Compatible With!</h1>
-            <h1 className="text-xl mt-2 ">Passionate Web Developer who wants to explore every tech stack.</h1>
+            <h1 className="lg:text-5xl text-3xl font-bold">Fully Compatible With!</h1>
+            <h1 className="lg:text-xl text-base mt-2 ">Passionate Web Developer who wants to explore every tech stack.</h1>
             <div className='grid  lg:grid-cols-8 grid-cols-3 gap-4 mt-10 mb-8'>
                 <img src={Html} className='h-16 ' alt="" />
                 <img src={CSS} className='h-16 ' alt="" />

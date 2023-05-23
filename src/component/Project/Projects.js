@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div>
             <h1 className='text-center font-bold text-4xl'>Projects</h1>
-            <div className='grid grid-cols-3 mt-11'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 mt-11 gap-7'>
             {
                 Pdata?.map(data => <Cart key={data.id} data={data}></Cart>)
             }
