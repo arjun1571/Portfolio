@@ -17,15 +17,21 @@ const Contact = () => {
     return (
         <div className='mb-20'>
             <h1 className='text-center font-bold text-4xl mt-20'>Conatact Me</h1>
-            <div className='mt-20'>
-                <form ref={form} onSubmit={sendEmail}>
-                    <label>Name</label>
-                    <input type="text" name="User_name" /><br />
-                    <label>Email</label>
-                    <input type="email" name="User_email" /><br />
-                    <label>Message</label>
-                    <textarea name="message" />
-                    <input className='btn btn-primary' type="submit" value="Send" />
+            <div className='mt-20  bg-base-300 p-20 rounded-xl'>
+                <form ref={form} onSubmit={sendEmail} className=' text-center'>
+                    <div className=''>
+                    <label className=''>Name</label> <br />
+                    <input type="text" name="User_name" placeholder='Enter Your Name' className='input input-bordered w-full max-w-3xl' /><br />
+                    </div>
+                    <div className=''>
+                    <label>Email</label><br />
+                    <input className='input input-bordered w-full max-w-3xl' placeholder='Enter Your Email' type="email" name="User_email" /><br />
+                    </div>
+                    <div className=' '>
+                    <label>Message</label><br />
+                    <textarea className='input input-bordered w-full max-w-3xl h-24' placeholder='Message' name="message" /><br />
+                    <input className='input input-bordered w-full max-w-3xl btn btn-primary ' type="submit" value="SUBMIT" />
+                    </div>
                 </form>
             </div>
         </div>
