@@ -1,7 +1,11 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 // import Resume from "../../image/Arjun React Dev.pdf"
 
 const NavBar = () => {
+
+  
+
     return (
         <div className="navbar bg-base-100 mt-3">
   <div className="navbar-start">
@@ -11,7 +15,7 @@ const NavBar = () => {
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
       <li><a>Home</a></li>
-      <li><a>My Skill</a></li>
+      <li ><Link to="section1" smooth={true}><a href="#section1" >My Skill</a></Link></li>
       <li><a>Project</a></li>
       <li><a>About Me</a></li>
       <li><a>Contact</a></li>

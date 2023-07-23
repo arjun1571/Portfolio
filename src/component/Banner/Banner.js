@@ -12,8 +12,8 @@ const Banner = () => {
           <img src={Arjun}alt='' className="lg:max-w-sm rounded-lg shadow-2xl lg:w-1/2 lg:ms-10 object-scale-down" />
           <div className='lg:w-1/2 mt-8'>
             <h1 className="text-6xl font-bold">Hi, I'm Arjun Das!</h1>
-            <h1 className="text-2xl mt-2 font-bold">Full Stack Web Developer</h1>
-            <p className="py-6 pr-10">I am a full stack web developer with an amazing ability to develop websites <br /> that are both functional and aesthetically pleasing. I have a strong <br /> understanding of web standards and best practices, and I am passionate br about  creating websites that users will find easy to use and visually appearing.</p>
+            <h1 className="text-2xl mt-2 font-bold">Front End  Web Developer</h1>
+            <p className="py-6 pr-10">I am a Front End web developer with an amazing ability to develop websites <br /> that are both functional and aesthetically pleasing. I have a strong <br /> understanding of web standards and best practices, and I am passionate br about  creating websites that users will find easy to use and visually appearing.</p>
             <a href={Resume}>
             <button className="btn btn-primary">DOWNLOAD RESUME</button>
             </a>

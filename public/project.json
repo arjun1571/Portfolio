@@ -1,0 +1,53 @@
+[
+    {
+        "id": "01",
+        "title": "Tech Zone BD",
+        "image": "https://i.ibb.co/dcHryms/s1.png",
+        "url": "https://graceful-rugelach-f73a7f.netlify.app/",
+        "description": "Static page design using html css and Bootstrap"
+    },
+    {
+        "id": "02",
+        "title": "News Hub-24",
+        "image": "https://i.ibb.co/3SLv2PJ/s2.png",
+        "url": "https://snazzy-semifreddo-2fc5d8.netlify.app/",
+        "description": "News app using react js."
+    },
+    {
+        "id": "03",
+        "title": "Doctor Portal",
+        "image": "https://i.ibb.co/7zTdpCT/s4.png",
+        "url": "https://doctor-portal-fc8f0.web.app/",
+        "description": "Online doctor appionment using react js nodejs mongoDB firebase."
+    },
+    {
+        "id": "04",
+        "title": "Car Service BD",
+        "image": "https://i.ibb.co/rwshQj1/s5.png",
+        "url": "https://bd-car-service.web.app/",
+        "description": "Repair on car service select on online. using react nodejs mongodb and firebase"
+    },
+    {
+        "id": "05",
+        "title": "Nfters",
+        "image": "https://i.ibb.co/FnDkYB9/302.png",
+        "url": "https://iridescent-moonbeam-e3ae02.netlify.app/",
+        "description": "Figma to react js design. Client requirement all full"
+    },
+    {
+        "id": "06",
+        "title": "DashBord",
+        "image": "https://i.ibb.co/F45QJqH/304.png",
+        "url": "https://beamish-platypus-5c9e23.netlify.app/my-profile",
+        "description": "Figma to react js design. Client requirement all full"
+    },
+    {
+        "id": "06",
+        "title": "Project.M",
+        "image": "https://i.ibb.co/BqJ2Pk7/305.png",
+        "url": "https://mercor-project-m.netlify.app/",
+        "description": "Figma to react js design. Not responsive this side"
+    }
+    
+]
+
