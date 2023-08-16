@@ -3,8 +3,8 @@ import mybg from "../../image/my-bg.png"
 
 const AboutMe = () => {
   return (
-    <div className=" bg-base-200 mt-20 rounded-xl mb-20">
-      <div className="hero  bg-base-200 lg:p-5">
+    <div className=" bg-base-300 mt-20 rounded-xl mb-20">
+      <div className="hero  bg-base-300 lg:p-5">
         <div className="hero-content flex-col lg:flex-row">
           <img 
             src={mybg}

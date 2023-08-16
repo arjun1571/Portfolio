@@ -31,7 +31,7 @@
         "id": "05",
         "title": "Nfters",
         "image": "https://i.ibb.co/FnDkYB9/302.png",
-        "url": "https://iridescent-moonbeam-e3ae02.netlify.app/",
+        "url": "https://64c8eb81ad29fb6f7ecbc717--iridescent-moonbeam-e3ae02.netlify.app/",
         "description": "Figma to react js design. Client requirement all full"
     },
     {
@@ -47,7 +47,22 @@
         "image": "https://i.ibb.co/BqJ2Pk7/305.png",
         "url": "https://mercor-project-m.netlify.app/",
         "description": "Figma to react js design. Not responsive this side"
+    },
+    {
+        "id": "07",
+        "title": "Ekota Bike Service & Sell Shop",
+        "image": "https://i.ibb.co/WyM8mvH/ekota.png",
+        "url": "https://ekota-bike-service.web.app/",
+        "description": "Figma to react js design."
+    },
+    {
+        "id": "08",
+        "title": "Law service page ",
+        "image": "https://i.ibb.co/YcZM9pV/same.png",
+        "url": "https://scintillating-hamster-731132.netlify.app/",
+        "description": "Figma to react js design.indian clint project i am simple design figma to react vite conversion using tailwindcss"
     }
+    
     
 ]
 
