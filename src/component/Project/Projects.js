@@ -19,7 +19,7 @@ const Projects = () => {
     },[])
     console.log(Pdata);
     return (
-        <div className='mt-20'>
+        <div className='mt-20' >
             <h1 id="section1" className='text-center font-bold text-4xl' onClick={() => scrollToSection("section1")}><Link to="section1" smooth={true} >Projects</Link></h1>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-11 gap-5'>
             {

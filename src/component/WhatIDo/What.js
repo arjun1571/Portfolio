@@ -28,14 +28,14 @@ const What = () => {
             id:4,
             name:"Photo and Video Edit",
             img:"https://i.ibb.co/cbbsrHJ/camera-removebg-preview.png",
-            des:"An online support system is a digital platform that provides users with assistance and guidance on a specific product or service. It is designed to address the needs of customers and provide."
+            des:"Photo Edit is the art and practice of capturing and producing using the software. It involves a range of techniques, including selecting the right equipment. and video edit"
 
         }
     ]
     return (
         <div>
             <h1  className='text-center font-bold text-4xl'  >What I DO</h1>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 mt-20'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-20'>
                 {
                     datas?.map(data => <WhatCart key={data.id} data={data}></WhatCart>)
                 }
