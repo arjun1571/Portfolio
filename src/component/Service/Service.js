@@ -13,6 +13,9 @@ import Filmora from "../../image/filmora.png";
 import Photo from "../../image/photoshop.png";
 import mongo from "../../image/mongo.png";
 import github from "../../image/github.png";
+import nextJs from "../../image/next-js.png";
+import typescript from "../../image/typescript.png";
+import sideFeald from "../../image/Programming-amico (1).png";
 
 
 const Service = () => {
@@ -43,13 +46,15 @@ const Service = () => {
             <img src={Photo} className="h-16 " alt="" />
             <img src={mongo} className="h-16 " alt="" />
             <img src={github} className="h-16 " alt="" />
+            <img src={nextJs} className="h-16 " alt="" />
+            <img src={typescript} className="h-16 " alt="" />
             {/* <img src={Html} className='h-16 ' alt="" /> */}
           </div>
         </div>
         <img
-          src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966"
+          src={sideFeald}
           alt=""
-          className=" rounded-lg shadow-2xl lg:w-1/2 lg:mr-10 lg:h-96"
+          className=" rounded-lg  lg:w-1/2 lg:mr-10 lg:h-96"
         />
       </div>
     </div>
