@@ -17,20 +17,22 @@ import nextJs from "../../image/next-js.png";
 import typescript from "../../image/typescript.png";
 import sideFeald from "../../image/Programming-amico (1).png";
 
-
 const Service = () => {
   return (
-    <div className="hero min-h-[550px] bg-base-300 mt-20 rounded-xl mb-20" >
+    <div className="hero min-h-[550px] bg-base-300 mt-20 rounded-xl mb-20">
       <div className="hero-content flex-col lg:flex-row-reverse ">
-        <div className="lg:w-1/2 mt-8" data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="lg:w-1/2 mt-8"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h1 className="lg:text-5xl text-3xl font-bold">
             Fully Compatible With!
           </h1>
-          <h1 className="lg:text-xl text-base mt-2 ">
+          <h3 className="lg:text-xl text-base mt-2 ">
             Passionate Web Developer who wants to explore every tech stack.
-          </h1>
+          </h3>
           <div className="grid  lg:grid-cols-8 grid-cols-3 gap-4 mt-10 mb-8">
             <img src={Html} className="h-16 " alt="" />
             <img src={CSS} className="h-16 " alt="" />

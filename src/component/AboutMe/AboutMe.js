@@ -1,25 +1,44 @@
 import React from "react";
-import mybg from "../../image/my-bg.png"
+import mybg from "../../image/my-bg.png";
 
 const AboutMe = () => {
   return (
     <div className=" bg-base-300 mt-20 rounded-xl mb-20">
       <div className="hero  bg-base-300 lg:p-5">
         <div className="hero-content flex-col lg:flex-row">
-          <img 
+          <img
             src={mybg}
-            className="lg:max-w-lg rounded-lg shadow-2xl lg:mr-10" alt=""
+            className="lg:max-w-lg rounded-lg shadow-2xl lg:mr-10"
+            alt=""
           />
-          <div data-aos="fade-up"
-     data-aos-duration="3000">
+          <div data-aos="fade-up" data-aos-duration="3000">
             <h1 className="text-5xl font-bold">About Me</h1>
             <p className="py-6">
-            As a front-end web developer,  proficient in using HTML, CSS, JavaScript and TypeScript to craft interactive and responsive web pages. I am familiar with various modern front-end frameworks and libraries, such as React, bootstrap, tailwind and Next js which enable me to build dynamic and feature-rich web applications.
+              I’m Arjun Chandra Das, a passionate and detail-oriented Junior
+              Frontend Developer with over 1 year of professional experience.
+              Specializing in React.js, Next.js, and TypeScript, I focus on
+              building responsive, scalable, and high-performance web
+              applications. With a background in Computer Science and hands-on
+              experience in modern frontend technologies, I have contributed to
+              a variety of real-world projects, ensuring clean code and
+              efficient development.
             </p>
-            <p>Now I am working at KuiperZ as front-end web Developer.</p>
-            <p>I have recently completed my B.Sc. in Computer Science and Engineering.</p>
-            <p>I have the skills and a strong understanding of Front End Web Development. I learned lots of Web Technologies through my learning and working journey.</p>
-            <p>dedication to his career as a web developer demonstrates his passion for technology and his commitment to staying up-to-date with the latest industry trends and best practices.As the web development field is constantly evolving, I have an innate curiosity and eagerness to learn, enabling me to adapt to new technologies and advancements in the digital </p>
+            <p>
+              My expertise includes working with HTML, CSS, Tailwind CSS, and
+              SASS, allowing me to create user-friendly interfaces. I have
+              experience building Progressive Web Applications (PWAs) and
+              cross-platform mobile apps using React Native, ensuring an
+              optimized user experience across devices. My goal is to write
+              secure, maintainable, and future-proof software that solves
+              real-world problems.
+            </p>
+
+            <p>
+              I’m always eager to expand my knowledge and work on innovative
+              projects that push the boundaries of web development. If you’re
+              looking for a developer who is passionate about creating robust,
+              user-centric applications, feel free to reach out!
+            </p>
             <p></p>
           </div>
         </div>
