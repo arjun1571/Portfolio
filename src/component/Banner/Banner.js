@@ -27,7 +27,7 @@ const Banner = () => {
           <h1 className="text-6xl font-bold">Hi, I'm Arjun Das!</h1>
           <h3 className="text-2xl mt-2 font-bold">Front-End Web Developer</h3>
           <p className="py-6 pr-10">
-            I’m a Software developer with more than 1 years of professional
+            I’m a Software developer with more than 1.5+ years of professional
             experience in the software industry, specializing in React/Next Js.
             Computer Science graduate with a good understanding of JavaScript
             and Typescript having 1+ years of real-life problem-solving
